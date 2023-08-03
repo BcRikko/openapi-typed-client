@@ -8,7 +8,7 @@ export type TasksSchema = {
       Response: GetAllTasksResponse
     }
     POST: {
-      Reqwuets: CreateTaskRequest
+      Request: CreateTaskRequest
       Response: GetTaskByIdResponse
     }
   }
