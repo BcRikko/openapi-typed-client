@@ -2,6 +2,14 @@ import { Client } from "./Client";
 
 const client = new Client()
 
+const res = await client.get({
+  path: '/api/1.0/tasks/:taskID',
+  params: {
+    taskID: '123'
+  }
+})
+res.title
+
 {
   // GET
   const res = await client.get({
